@@ -28,32 +28,29 @@ public class Collegeservices {
 		// TODO Auto-generated method stub
 		return repo.findById(id).orElse(null);
 	}
+	
+	public College updateCollege(int id, College clg) {
+		 College existingCollege = repo.findById(id)
+	                .orElse(null);
 
-	public College updatedetails(College clg) {
-		// TODO Auto-generated method stub
-		College o_clg=null;
-		Optional<College> opclg=repo.findById(clg.getId());
-		if(opclg.isPresent())
-		{
-			o_clg=opclg.get();
-			o_clg.setName(clg.getName());
-			o_clg.setType(clg.getType());
-			o_clg.setLocation(clg.getLocation());
-			repo.save(o_clg);
-		}
-		else
-		{
-			return new College();
-		}
-		return o_clg;
-	}
+	        existingCollege.setName(clg.getName());
+	        existingCollege.setType(clg.getType());
+	        existingCollege.setLocation(clg.getLocation());
 
+	        College updatedCollege = repo.save(existingCollege);
+	        return updatedCollege;
+	    }
+	
+	
+	
+
+	
 	public void remove(int id) {
 		// TODO Auto-generated method stub
 		repo.deleteById(id);
 		
 	}
-	
+
 	
 	
 

@@ -1,27 +1,29 @@
 package com.ust.EmployeeSecurityJwt.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.Id;
-import jakarta.persistence.Table;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
-@Entity
+@Entity 
 @Table(name="user_tb1")
 public class User {
 	@Id
 	@GeneratedValue
 	private int id;
-	private String name;
+	private String username;
 	private String password;
 	private String email;
 	private String phnum;
-	public User(int id, String name, String password, String email, String phnum) {
+	public User(int id, String username, String password, String email, String phnum) {
 		
 		this.id = id;
-		this.name = name;
+		this.username = username;
 		this.password = password;
 		this.email = email;
 		this.phnum = phnum;
+	}
+	public User() {
 	}
 	public int getId() {
 		return id;
@@ -29,11 +31,11 @@ public class User {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public String getName() {
-		return name;
+	public String getUsername() {
+		return username;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public void setUsername(String username) {
+		this.username = username;
 	}
 	public String getPassword() {
 		return password;

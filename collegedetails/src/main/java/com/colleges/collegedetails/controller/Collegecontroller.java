@@ -3,6 +3,7 @@ package com.colleges.collegedetails.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -42,10 +43,14 @@ public class Collegecontroller {
 	}
 	
 	@PutMapping("/update/{id}")
-	public College update(@PathVariable College clg)
-	{
-		return clgservices.updatedetails(clg);
-	}
+//	public College update(@PathVariable College clg)
+//	{
+//		return clgservices.updatedetails(clg);
+//	}
+	 public ResponseEntity<College> updateCollege(@PathVariable int id, @RequestBody College clg) {
+        College updatedCollege = clgservices.updateCollege(id, clg);
+        return ResponseEntity.ok(updatedCollege);
+    }
 	
 	@DeleteMapping("/delete/{id}")
 	public String remove(@PathVariable int id)
