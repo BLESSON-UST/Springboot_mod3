@@ -1,0 +1,6 @@
+com\javatechie\respository\CourseRepository.class
+com\javatechie\entity\Student.class
+com\javatechie\controller\StudentCourseController.class
+com\javatechie\JpaManytomanyApplication.class
+com\javatechie\respository\StudentRepository.class
+com\javatechie\entity\Course.class

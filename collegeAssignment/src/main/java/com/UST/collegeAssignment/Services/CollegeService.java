@@ -17,8 +17,8 @@ public class CollegeService {
     private CollegeRepository collegeRepository;
 
     public List<College> getAllColleges() {
-        List<College> colleges = collegeRepository.findAll();
-        return colleges.stream().map(College::new).collect(Collectors.toList());
+    	return collegeRepository.findAll();
+//        return colleges.stream().map(College::new).collect(Collectors.toList());
     }
 
     public College getCollegeById(Long collegeId) {

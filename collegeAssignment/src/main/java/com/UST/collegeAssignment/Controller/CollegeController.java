@@ -24,7 +24,7 @@ public class CollegeController {
 
     @PostMapping
     public College addCollege(@RequestBody College collegeDTO) {
-        return collegeService.addCollege(collegeDTO);
+        return collegeService.saveCollege(collegeDTO);
     }
 
     @GetMapping
@@ -49,6 +49,6 @@ public class CollegeController {
 
     @DeleteMapping("/{collegeId}")
     public void deleteCollege(@PathVariable Long collegeId) {
-        collegeService.deleteCollege(collegeId);
+        collegeService.deleteCollegeById(collegeId);
     }
 }

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b597f1c0-65be-4b9c-8058-5a4354661f47" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ManytoMany-main/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManytoMany-main/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManytoMany-main/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManytoMany-main/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManytoMany-main/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ManytoMany-main/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootTestDemo/src/main/java/com/ust/SpringBootTestDemo/Controller/StudentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootTestDemo/src/main/java/com/ust/SpringBootTestDemo/Entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootTestDemo/src/main/java/com/ust/SpringBootTestDemo/Exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootTestDemo/src/main/java/com/ust/SpringBootTestDemo/Exception/StudentNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootTestDemo/src/main/java/com/ust/SpringBootTestDemo/Model/ErrorMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootTestDemo/src/main/java/com/ust/SpringBootTestDemo/Repository/StudentRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootTestDemo/src/main/java/com/ust/SpringBootTestDemo/Service/StudentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootTestDemo/src/main/java/com/ust/SpringBootTestDemo/Service/StudentServiceimpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringBootTestDemo/src/test/java/com/ust/SpringBootTestDemo/Service/StudentServiceimplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interviewFeedback/src/main/java/com/UST/interviewFeedback/Model/interviewFeedback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interviewFeedback/src/main/java/com/UST/interviewFeedback/controller/impl/interviewFeedbackControllerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interviewFeedback/src/main/java/com/UST/interviewFeedback/controller/interviewFeedbackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interviewFeedback/src/main/java/com/UST/interviewFeedback/dao/interviewFeedbackRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interviewFeedback/src/main/java/com/UST/interviewFeedback/dto/interviewFeedbackDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interviewFeedback/src/main/java/com/UST/interviewFeedback/mapper/GenericMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interviewFeedback/src/main/java/com/UST/interviewFeedback/mapper/interviewFeedbackMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interviewFeedback/src/main/java/com/UST/interviewFeedback/service/GenericService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interviewFeedback/src/main/java/com/UST/interviewFeedback/service/impl/interviewFeedbackServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/interviewFeedback/src/main/java/com/UST/interviewFeedback/service/interviewFeedbackService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collegeAssignment/src/main/java/com/UST/collegeAssignment/Controller/CollegeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/collegeAssignment/src/main/java/com/UST/collegeAssignment/Controller/CollegeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collegeAssignment/src/main/java/com/UST/collegeAssignment/Controller/DepartmentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/collegeAssignment/src/main/java/com/UST/collegeAssignment/Controller/DepartmentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collegeAssignment/src/main/java/com/UST/collegeAssignment/Services/CollegeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/collegeAssignment/src/main/java/com/UST/collegeAssignment/Services/CollegeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collegeAssignment/src/main/java/com/UST/collegeAssignment/Services/DepartmentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/collegeAssignment/src/main/java/com/UST/collegeAssignment/Services/DepartmentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collegedetails/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/collegedetails/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/collegedetails/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/collegedetails/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpamanytomany/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/jpamanytomany/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpamanytomany/src/main/java/com/relations/jpamanytomany/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/jpamanytomany/src/main/java/com/relations/jpamanytomany/model/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jpamanytomany/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/jpamanytomany/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2OzhKLRkgvY7NTzZN948tKobmCN" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Springboot"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b597f1c0-65be-4b9c-8058-5a4354661f47" name="Changes" comment="" />
+      <created>1682569252646</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1682569252646</updated>
+    </task>
+    <servers />
+  </component>
+</project>

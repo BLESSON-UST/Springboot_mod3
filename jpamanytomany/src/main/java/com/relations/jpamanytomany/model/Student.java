@@ -28,8 +28,8 @@ public class Student {
 
 	@ManyToMany (fetch= FetchType.LAZY, cascade= CascadeType.ALL)
 	@JoinTable(	name="STUDENT_COURSE_TABLE", 
-				joinColumns= {@JoinColumn(name="std_id", referencedColumnName = "id")},
-				inverseJoinColumns = {@JoinColumn(name="c_id", referencedColumnName = "id")})
+				joinColumns= {@JoinColumn(name="stdid", referencedColumnName = "id")},
+				inverseJoinColumns = {@JoinColumn(name="cid", referencedColumnName = "id")})
 
 	@JsonBackReference
 	private Set <Course> courses;

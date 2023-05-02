@@ -23,7 +23,7 @@ public class DepartmentController {
 
     @PostMapping
     public Department addDepartment(@RequestBody Department departmentDTO) {
-        return departmentService.addDepartment(departmentDTO);
+        return departmentService.saveDepartment(departmentDTO);
     }
 
     @GetMapping
@@ -47,12 +47,12 @@ public class DepartmentController {
     }
 
     @PostMapping("/{departmentId}/faculties")
-    public FacultyDTO addFacultyToDepartment(@PathVariable Long departmentId, @RequestBody FacultyDTO facultyDTO) {
+    public Faculty addFacultyToDepartment(@PathVariable Long departmentId, @RequestBody Faculty facultyDTO) {
         return departmentService.addFacultyToDepartment(departmentId, facultyDTO);
     }
 
     @PostMapping("/{departmentId}/hod")
-    public FacultyDTO addHodToDepartment(@PathVariable Long departmentId, @RequestParam String name) {
+    public Faculty addHodToDepartment(@PathVariable Long departmentId, @RequestParam String name) {
         return departmentService.addHodToDepartment(departmentId, name);
     }
 }
